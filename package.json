@@ -1,0 +1,20 @@
+{
+  "name": "rstapi",
+  "version": "1.0.0",
+  "description": "api to send servicename and ip to socketio",
+  "main": "RSapiserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specofied\" && exit 1"
+  },
+  "author": "dracozale",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "lodash": "^4.17.19",
+    "mssql": "^6.2.0",
+    "nodemon": "^2.0.3",
+    "socket.io-client": "^2.3.0"
+  }
+}
